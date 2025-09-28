@@ -1,7 +1,7 @@
 name: The ultimate Stabat Mater site
 title: The ultimate Stabat Mater site
-url: ""
-baseurl: ""
+url: "https://mrnspam.github.io"
+baseurl: "/stabmat-redo"
 description: >-
   Search our Stabat Mater Collection: 300 compositions, composers, texts and 24 translations of the original Latin poem Stabat Mater Dolorosa.
 markdown: kramdown
