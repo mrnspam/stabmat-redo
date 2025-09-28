@@ -1,0 +1,15 @@
+name: The ultimate Stabat Mater site
+title: The ultimate Stabat Mater site
+url: ""
+baseurl: ""
+description: >-
+  Search our Stabat Mater Collection: 300 compositions, composers, texts and 24 translations of the original Latin poem Stabat Mater Dolorosa.
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+collections:
+  posts:
+    output: true
+sass:
+  sass_dir: assets/css
+  style: compressed
