@@ -1,0 +1,16 @@
+{% assign hero = include.hero %}
+<section class="section banner-area width-full has-bg-image light-content" style="background-color: #f1f1f1;">
+  <picture class="bg-picture">
+    <source srcset="{{ hero.background | relative_url }}" media="(max-width: 800px)" />
+    <img
+      src="{{ hero.background | relative_url }}"
+      class="bg-image"
+      alt=""
+    />
+  </picture>
+  <div class="wrap height-lg center-xs text-xs-center text-lg">
+    <div class="section-content width-auto">
+      <h1 class="banner-title">{{ hero.title }}</h1>
+    </div>
+  </div>
+</section>
