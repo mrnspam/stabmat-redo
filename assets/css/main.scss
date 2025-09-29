@@ -217,6 +217,13 @@ a:hover {
   gap: 24px;
 }
 
+.title-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .site-header .text-xs-right {
   text-align: left;
 }
@@ -245,6 +252,13 @@ a:hover {
   font-weight: 400;
   letter-spacing: 1px;
   margin: 0;
+}
+
+.site-branding {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-self: flex-start;
 }
 
 .header-right .widget-area {
