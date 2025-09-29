@@ -1,47 +1,107 @@
 # Stabat Mater Jekyll Migration
 
-This repository houses the migration of [stabatmater.info](https://stabatmater.info) from WordPress to a modular, data-driven Jekyll site that can be deployed to GitHub Pages.
+This repository contains the migration of [stabatmater.info](https://stabatmater.info) from WordPress to a modular, data-driven Jekyll site that can be deployed to GitHub Pages.
 
-## Migration plan
+## Current migration snapshot
 
-1. **Structuur opzetten** – Maak de standaard Jekyll-structuur met `_layouts`, `_includes`, `_data` en `assets/`. Definieer een `default`-layout die de hoofdomlijsting (html/head/body) bevat.
-2. **Navigatie modulariseren** – Verplaats topbar, hoofdmenu en secundaire menu naar `_includes` (bijv. `topbar.html`, `primary-nav.html`, `secondary-nav.html`) en stuur hun inhoud via `_data/navigation.yml` zodat menu-items eenvoudig beheerd kunnen worden.
-3. **Hero & banner** – Maak een include voor de banner met configureerbare achtergrondafbeelding en titels, gevoed vanuit front matter of `_data/home.yml`. Zorg dat achtergrondafbeeldingen in `assets/images/` staan en in CSS/SCSS worden gestyled.
-4. **Hoofdcontent naar Markdown** – Zet de hoofdsecties (YouTube-embed, headings, paragrafen) om naar Markdown in `index.md`, gebruik Liquid-tags of shortcodes voor embeds.
-5. **Sidebar als component** – Gebruik `_includes/sidebar.html` met data-gestuurde widgets (donatiebanner, zoekformulier, recente posts, navigatielinks). Zo kunnen later andere pagina’s dezelfde sidebar hergebruiken.
-6. **Footer-widgets** – Modelleer de vierkoloms footer via `_includes/footer-widgets.html` en stuur inhoud via `_data/footer_widgets.yml` voor consistente styling.
-7. **Styling scheiden** – Maak `assets/css/main.scss` waarin je basisvariabelen (kleuren, lettertypen) en component-styles definieert. Zet responsive gedrag (zoals verborgen menu’s op mobiel) in SCSS in plaats van inline styles.
-8. **Contentmigratie** – Voor latere fases zorg je dat alle WordPress-inhoud (blogposts, componistenpagina’s) naar Markdown-bestanden in passende collecties gaat (`_posts`, `_composers`, etc.) met YAML-data voor metadata.
+- A `default` layout renders the shared shell (header, hero area, sidebar, footer and language switcher) and wires in the existing includes.
+- `index.md` already mirrors the key sections of the WordPress homepage, including a reusable YouTube include for featured videos.
+- `assets/css/main.scss` provides the first pass of typography, layout helpers and widget styling to match the current visual identity.
+- Navigation, sidebar widgets and footer blocks are still populated with hard-coded HTML. Converting them to data-driven includes is the next big milestone.
 
-## Current status
+## Proposed content architecture
 
-- Een `default`-layout en kern-includes (topbar, navigatie, hero, sidebar, footer) vormen de basis van de homepage.
-- De eerste versie van `index.md` bevat de belangrijkste secties van de homepagina, inclusief een YouTube-embed via `_includes/youtube.html`.
-- `assets/css/main.scss` bevat de eerste opzet van typografie en component-styling die het uiterlijk van stabatmater.info benadert.
-- Verdere iteraties zullen de navigatie en widgets voeden vanuit `_data`, extra collecties toevoegen en inhoud migreren uit WordPress.
+### Collections and structured content
 
-## Handmatige media-bestanden
+| Collection | Location | Purpose | Example front matter |
+| --- | --- | --- | --- |
+| Blog posts | `_posts/` | Preserve the chronological blog feed. | `title`, `date`, `categories`, `excerpt`, `author` |
+| Composer profiles | `_composers/` | One Markdown file per composer, used for detail pages and to generate indexes. | `title`, `slug`, `country`, `era`, `birth_year`, `death_year`, `duration`, `sources` |
+| Translation pages | `_translations/` | Store each language variant of the poem with metadata for language selection. | `title`, `language_code`, `native_name`, `translator`, `source_url`, `published` |
+| Static interior pages | `pages/` (built via `defaults`) | WordPress pages such as “About”, “Donate”, “Contact”. Front matter can drive hero images, sidebar widgets and breadcrumbs. | `title`, `permalink`, `hero`, `sidebar_widgets` |
 
-De volgende afbeeldingen horen bij de lay-out maar zijn wegens PR-beperkingen niet opgenomen in de repository. Voeg ze handmatig toe na het clonen. Bewaar ze allemaal in `assets/images/`.
+> Configure the additional collections in `_config.yml`, optionally pointing `collections_dir: content` so the Markdown files live under `content/` while still building to clean permalinks.
 
-| Bestand | Beschrijving | Plaats in de site |
+### Shared data sources (`_data/`)
+
+| File | Drives | Notes |
 | --- | --- | --- |
-| `logo.png` | Transparant PNG-logo van *Stabat Mater Foundation* voor de primaire navigatiebalk. | Wordt geladen in `_includes/primary-nav.html` als merklogo linksboven. |
-| `hero-banner.jpg` | Full-width hero-achtergrond met een klassiek muziekoptreden. | Ingezet door `_includes/hero.html` als standaard hero-achtergrond. |
-| `hero-placeholder.jpg` | Alternatieve hero-afbeelding met een subtiel tekstuurpatroon voor pagina’s zonder specifieke banner. | Gebruik voor secundaire pagina’s via dezelfde hero-include. |
-| `flag-nl.png` | Klein Nederlands vlaggetje voor taalkeuze. | Getoond in `_includes/topbar.html` naast de taalwissel. |
-| `sidebar-donate.jpg` | Visuele banner met orkest voor de donatie-widget. | In `_includes/sidebar.html` als achtergrond voor de donatiecall-to-action. |
-| `footer-youtube.jpg` | Thumbnail van een kooroptreden. | Onderste kolom “YouTube” in `_includes/footer.html`. |
-| `footer-instagram.jpg` | Close-up foto uit een repetitie, afgestemd op Instagram-CTA. | Onderste kolom “Instagram” in `_includes/footer.html`. |
-| `footer-book.jpg` | Boekcover van *Stabat Mater Dolorosa*. | Onderste kolom “The book” in `_includes/footer.html`. |
+| `navigation/primary.yml` and `navigation/secondary.yml` | Main menus | Supports nesting for dropdowns, language-aware labels and feature flags for temporary items. |
+| `navigation/topbar.yml` | Social links, donate links and language switcher | Replace the static list in `topbar.html`. |
+| `sidebar/widgets.yml` | Sidebar ordering | Allows per-page overrides by referencing widget IDs. |
+| `footer/widgets.yml` | Footer CTAs | Stores titles, copy, image filenames and external URLs so that footer cards stay consistent across the site. |
+| `site/social.yml`, `site/contact.yml` | Global metadata | Shared by templates, JSON-LD, feeds and forms. |
+| `translations/languages.yml` | Language switcher | List of language codes, names and slug prefixes for building localized routes. |
 
-> **Let op:** zorg dat de bestandsnamen exact overeenkomen zodat de stijlen en includes zonder extra wijzigingen werken.
+### Dynamic listings and relationships
 
-## Getting started
+- **Composers:** generate alphabetical, chronological, duration-based and country-based pages directly from `_composers/` metadata. Liquid filters can assemble grouped collections (`group_by` on country, `sort` on `birth_year`, etc.).
+- **Recent posts:** populate the sidebar widget by querying the latest `_posts` entries instead of hard-coded placeholders.
+- **Translations:** drive the translations overview page and dropdowns from `_translations/` plus `_data/translations/languages.yml`. Include `available: true/false` flags so incomplete translations can be hidden until ready.
+- **Hero banners and sidebars:** let Markdown front matter reference entries in `_data/sidebar/widgets.yml` or provide overrides (`sidebar_widgets: [donate, search, composers]`).
+- **Navigation and footer:** iterate over `_data/navigation/*.yml` and `_data/footer/widgets.yml` in the includes. This keeps multi-language labels and future additions (e.g. events, shop) centralized.
+- **Media galleries & discography:** once composers include an array of recordings, expose them via nested data files (`_data/recordings/<composer>.yml`) to avoid bloated front matter.
+
+### Suggested folder layout
+
+```text
+.
+├── _config.yml
+├── _data/
+│   ├── navigation/
+│   │   ├── primary.yml
+│   │   └── secondary.yml
+│   ├── sidebar/widgets.yml
+│   ├── footer/widgets.yml
+│   ├── site/
+│   │   ├── social.yml
+│   │   └── contact.yml
+│   └── translations/languages.yml
+├── content/
+│   ├── composers/  → becomes `_composers/`
+│   ├── translations/  → becomes `_translations/`
+│   └── pages/
+├── _includes/
+├── _layouts/
+├── _posts/
+└── assets/
+    ├── images/
+    ├── downloads/
+    └── css/
+```
+
+Keeping curated content inside `content/` helps editors focus on Markdown files, while `_data/` centralizes structured lists that power menus, widgets and taxonomy pages.
+
+## Roadmap / next steps
+
+1. **Model new collections** – Define `_composers` and `_translations` in `_config.yml`, add representative Markdown files and ensure permalinks match the current WordPress slugs.
+2. **Refactor includes to use `_data`** – Update `topbar.html`, `secondary-nav.html`, `sidebar.html` and `footer.html` to consume the proposed data files. This will automatically reflect new links, posts or CTAs without template edits.
+3. **Build listing templates** – Create index pages for composers (alphabetical, chronological, by country, by duration) using Liquid loops over `_composers`. Mirror this approach for translation overviews and archive pages.
+4. **Migrate historical content** – Start importing high-value composers and translations, verifying metadata completeness. In parallel, backfill blog posts to `_posts/` with accurate categories and excerpts.
+5. **Internationalization hooks** – Use `_data/translations/languages.yml` to render language switchers, set up localized permalinks (`/nl/…`) and plan how shared includes adapt per language.
+6. **Enhance search & discovery** – Evaluate Lunr.js or Algolia for site search across composers, translations and posts. Ensure metadata fields (era, instrumentation, difficulty) are exposed for filtering.
+7. **QA and parity checks** – Compare output with the existing WordPress site page-by-page, capturing gaps (forms, embeds, downloads) before decommissioning the old platform.
+
+## Manual media files
+
+The following images belong to the layout but are excluded from version control. Add them manually to `assets/images/` after cloning the repository.
+
+| File | Description | Used by |
+| --- | --- | --- |
+| `logo.png` | Transparent PNG logo for the primary navigation bar. | `_includes/primary-nav.html` |
+| `hero-banner.jpg` | Default hero background used on the homepage. | `_includes/hero.html` |
+| `hero-placeholder.jpg` | Secondary hero background for pages without a dedicated banner. | `_includes/hero.html` |
+| `flag-nl.png` | Dutch flag used for the language switcher. | `_includes/topbar.html` |
+| `sidebar-donate.jpg` | Banner artwork for the donation widget. | `_includes/sidebar.html` |
+| `footer-youtube.jpg` | CTA image for the YouTube footer widget. | `_includes/footer.html` |
+| `footer-instagram.jpg` | CTA image for the Instagram footer widget. | `_includes/footer.html` |
+| `footer-book.jpg` | Artwork for the Stabat Mater book CTA. | `_includes/footer.html` |
+
+## Local development
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-De site is dan beschikbaar op <http://127.0.0.1:4000>. Gebruik `bundle exec jekyll build` om een productie-build te genereren.
+The site will be available at <http://127.0.0.1:4000>. Use `bundle exec jekyll build` to produce a static build for deployment.
