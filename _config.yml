@@ -13,6 +13,16 @@ collections:
   composers:
     output: true
     permalink: /composers/:slug/
+defaults:
+  - scope:
+      path: ""
+      type: composers
+    values:
+      layout: default
+  - scope:
+      path: "composers/index.md"
+    values:
+      layout: default
 sass:
   sass_dir: assets/css
   style: compressed
