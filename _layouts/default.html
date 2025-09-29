@@ -29,20 +29,22 @@
         {% include secondary-nav.html %}
       </nav>
       <div class="site-inner">
-        <header class="entry-header">
-          <h1 class="entry-title">{{ page.title }}</h1>
-        </header>
-        <div class="content-sidebar-wrap has-boxed-children">
-          <main class="content" id="genesis-content">
-            <article class="entry boxed">
-              <div class="entry-content">
-                {{ content }}
-              </div>
-            </article>
-          </main>
-          <aside class="sidebar sidebar-primary widget-area has-boxed" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary">
-            {% include sidebar.html %}
-          </aside>
+        <div class="wrap">
+          <header class="entry-header">
+            <h1 class="entry-title">{{ page.title }}</h1>
+          </header>
+          <div class="content-sidebar-wrap has-boxed-children">
+            <main class="content" id="genesis-content">
+              <article class="entry boxed">
+                <div class="entry-content">
+                  {{ content }}
+                </div>
+              </article>
+            </main>
+            <aside class="sidebar sidebar-primary widget-area has-boxed" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary">
+              {% include sidebar.html %}
+            </aside>
+          </div>
         </div>
       </div>
       <div class="footer-widgets" id="genesis-footer-widgets">
