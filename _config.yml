@@ -10,9 +10,6 @@ permalink: pretty
 collections:
   posts:
     output: true
-  composers:
-    output: true
-    permalink: /composers/:slug/
 sass:
   sass_dir: assets/css
   style: compressed
