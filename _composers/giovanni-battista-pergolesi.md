@@ -3,9 +3,6 @@ title: Pergolesi, Giovanni Battista
 slug: giovanni-battista-pergolesi
 source_url: https://stabatmater.info/componist/giovanni-battista-pergolesi-2/
 ---
-
-# Giovanni Pergolesi
-
 ## About the composer
 
 Giovanni Battista Pergolesi (1710 – 1736) was born in Jesi, Italy. His name became known thanks to his comic opera *La Serva Padrona*. He was slightly handicapped and had a weak constitution. He probably died of tuberculosis.

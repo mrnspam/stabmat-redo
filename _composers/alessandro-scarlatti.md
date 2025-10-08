@@ -3,9 +3,6 @@ title: Scarlatti, Alessandro
 slug: alessandro-scarlatti
 source_url: https://stabatmater.info/componist/scarlatti/
 ---
-
-# Alessandro Scarlatti
-
 ## About the composer
 
 Alessandro Scarlatti (1660 – 1725) was born in Palermo, Italy. He was one of the first exponents of the Neapolitan School (see also Salvatori). He composed over 600 cantatas, 150 oratories and 115 operas. The Stabat Mater was composed for the Order of “Cavalieri della Virgine dei Dolori” in Naples, who, annually, honored the Virgin by dedicating to her, during the Lenten season, a Stabat Mater. The Order was very poor, what may be the explanation for the small number of artists the score was written for. Many years later, probably in 1734, the same Order commissioned Pergolesi for a new Stabat Mater.

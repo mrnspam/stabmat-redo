@@ -3,9 +3,6 @@ title: Rossini, Gioacchino
 slug: gioachino-rossini
 source_url: https://stabatmater.info/componist/rossini/
 ---
-
-# Gioacchino Rossini
-
 ## About the composer
 
 Gioacchino Rossini (1792 – 1868) was born in Pesaro, Italy. In view of his background of composing mainly comic operas the few religious compositions of Rossini (*Petite Messe Solennelle*, *Stabat Mater*) are sometimes criticized as less serious. Notwithstanding the strong operatic tendencies, especially in the Stabat Mater, this was absolutely not Rossini’s intention. To the contrary, as we can learn from his note to the manuscript of the Petite Messe, he composed these works from a real religious feeling: “*Here it is then, this poor little Mass. Have I written truly sacred music, or just damn bad music? I was born for opera buffa, as you well know. Not much skill, but quite a bit of feeling – that’s how I’d sum it up. Blessed be thy name, and grant me a place in Paradise*“. At first Rossini composed only sections 1 and 5 through 9 from the intended ten sections of his Stabat Mater. Due to an attack of lumbago, either real or strategic (Rossini was not very motivated, in the beginning), the other sections were composed by Giovanni Tadolini from Bologna. In this form it was played in Madrid in 1832. However, before it could be published Rossini succeeded in getting back the manuscript and re-composed the Tadolini-sections. In 1842 it had its premiere in its definite form. An instrumental paraphrase *Fantasia su motivi dello Stabat Mater di Rossini* was written some years later by Saverio [Mercadante](https://stabatmater.info/mercadante.htm).

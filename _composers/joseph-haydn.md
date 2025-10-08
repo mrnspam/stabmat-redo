@@ -3,9 +3,6 @@ title: Haydn, Joseph
 slug: joseph-haydn
 source_url: https://stabatmater.info/componist/joseph-haydn/
 ---
-
-# Franz Joseph Haydn
-
 ## About the composer
 
 Joseph Haydn (1732 – 1809) was born in Rohrau, Austria. He composed amongst others more than 100 symphonies, 84 string quartets, 10 masses and four large oratorios. His Stabat Mater was praised by his contemporaries, for instance by the then famous composer Hasse.
