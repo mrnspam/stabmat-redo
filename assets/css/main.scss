@@ -431,6 +431,22 @@ a:hover {
   margin: 32px 0 12px;
 }
 
+.entry-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.entry-content table th,
+.entry-content table td {
+  padding: 8px 12px;
+}
+
+.entry-content table th:first-child,
+.entry-content table td:first-child {
+  min-width: 220px;
+  white-space: nowrap;
+}
+
 .wp-block-embed {
   background: #f8f8f8;
   border: 1px solid #e0e0e0;
