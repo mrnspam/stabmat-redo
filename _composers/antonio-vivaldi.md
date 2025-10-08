@@ -3,9 +3,6 @@ title: Vivaldi, Antonio
 slug: antonio-vivaldi
 source_url: https://stabatmater.info/componist/antonio-vivaldi/
 ---
-
-# Antonio Vivaldi
-
 ## About the composer
 
 Antonio Vivaldi (1678 – 1741) was probably born in Venice, Italy. The priest Vivaldi, in view of his wild red hair often called “the red priest” (Il Preto Rosso), worked the largest part of his life as a music master at the *Ospedale della Pietà* in Venice, originally an orphanage for extra-marital girls. For an important part this may not only have influenced the score of his works (there were only women to play and sing), but could also be the reason for the fact that he frequently made use of easy to listen to melodies, as these were mostly intended for a young female audience. His most famous work, of course, is *Le Quattro Stagioni* (The Four Seasons). He died in Vienna, during one of his journeys. The first movement of Vivaldi’s Stabat Mater has been used in the soundtrack of the movie “The talented Mr.Ripley”.
