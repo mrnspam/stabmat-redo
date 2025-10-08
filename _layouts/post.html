@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="post-meta">
+  <p class="post-meta__line">
+    <span class="post-meta__date">{{ page.date | date: '%B %-d, %Y' }}</span>
+    {% if page.author %}
+      <span class="post-meta__separator">·</span>
+      <span class="post-meta__author">{{ page.author }}</span>
+    {% endif %}
+  </p>
+  {% if page.categories %}
+    <p class="post-meta__categories">
+      {% for category in page.categories %}
+        <span class="post-meta__category">{{ category }}</span>{% unless forloop.last %}<span class="post-meta__separator">·</span>{% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+</div>
+
+{{ content }}

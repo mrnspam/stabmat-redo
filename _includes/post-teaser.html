@@ -1,0 +1,23 @@
+{% assign post = include.post %}
+{% assign compact = include.compact | default: false %}
+{% assign show_excerpt = include.show_excerpt | default: false %}
+{% assign show_meta = include.show_meta | default: true %}
+{% assign post_date = post.date | date: '%B %-d, %Y' %}
+{% if compact %}
+  <li class="recent-post-item">
+    <a class="recent-post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if show_meta %}
+      <span class="recent-post-date">{{ post_date }}</span>
+    {% endif %}
+  </li>
+{% else %}
+  <article class="post-teaser">
+    <h2 class="post-teaser__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {% if show_meta %}
+      <p class="post-teaser__meta">{{ post_date }}{% if post.author %} · {{ post.author }}{% endif %}</p>
+    {% endif %}
+    {% if show_excerpt %}
+      <p class="post-teaser__excerpt">{{ post.excerpt | default: post.content | strip_html | truncatewords: 40 }}</p>
+    {% endif %}
+  </article>
+{% endif %}

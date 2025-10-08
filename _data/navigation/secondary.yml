@@ -1,0 +1,36 @@
+- title: Home
+  url: /
+  key: home
+- title: Composers
+  url: /composers/
+  key: composers
+  children:
+    - title: Alphabetically
+      url: /composers/
+    - title: By country of origin
+      url: /composers/
+    - title: Chronologically
+      url: /composers/
+    - title: By duration
+      url: /composers/
+- title: Texts
+  url: /stabat-mater-dolorosa-about-the-poem/
+  key: texts
+- title: Translations
+  url: /stabat-mater-translations-and-languages/
+  key: translations
+- title: Blog
+  url: /stabat-mater-blog/
+  key: blog
+- title: Missing CDs
+  url: /stabat-mater-cd-collection/
+  key: missing-cds
+- title: About
+  url: /stabat-mater-foundation/
+  key: about
+- title: Donate?
+  url: /stabat-mater-collection-support/
+  key: donate
+- title: Contact
+  url: /contact/
+  key: contact

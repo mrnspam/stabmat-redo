@@ -27,8 +27,15 @@
 <section id="recent-posts-2" class="widget boxed widget_recent_entries">
   <div class="widget-wrap">
     <h3 class="widgettitle widget-title">Recent posts</h3>
-    <ul>
-      <li class="placeholder">Latest news posts will appear here once the collection has been migrated.</li>
+    <ul class="recent-posts">
+      {% assign recent_posts = site.posts | slice: 0, 5 %}
+      {% if recent_posts and recent_posts.size > 0 %}
+        {% for post in recent_posts %}
+          {% include post-teaser.html post=post compact=true %}
+        {% endfor %}
+      {% else %}
+        <li class="placeholder">Latest news posts will appear here once the collection has been migrated.</li>
+      {% endif %}
     </ul>
   </div>
 </section>
