@@ -10,7 +10,7 @@ permalink: /stabat-mater-cd-collection/
 <p>As I try to be as trustworthy as possible, I deleted all names on which I had no information whatever, and that I could not find on the Internet either. Nevertheless, I am sure that still names can be found on the list that should not be there. I apologize for that. </p>
 <p>If you know if one of these has been released on CD, I would appreciate it very much if you would send this information to me. I can add it to my collection then and report about it on this site. Thank you very much!</p>
 <ol class="wp-block-list">
-<li><strong>A</strong></li>
+<li class="letter-heading"><strong>A</strong></li>
 <li>Rafael de Acebes (1837)</li>
 <li>Byron Adams (1955 –  ) Stabat Mater for Chamber Orchestra and soprano.2024.</li>
 <li>Agostino Agazzari (1578 – 1640): Stabat Mater for 2 choirs, Stabat Mater for 4 soloists (SATB)</li>
@@ -38,7 +38,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Joseph Auer (ca. 1850): Stabat Mater for mixed women’s choir and organ</li>
 <li>Juan Auli (1796 – 1869)</li>
 <li>Emil Axman (1887 – 1949)</li>
-<li><strong>B</strong></li>
+<li class="letter-heading"><strong>B</strong></li>
 <li>Luis Bacalov (1933 – ): Stabat Mater  2002</li>
 <li>Johann Anton Bachschmidt (1728 – 1797)</li>
 <li>Konrad Back (1749 – 1810)</li>
@@ -110,7 +110,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Francisco (Franz) Bühler (1760 – 1824)</li>
 <li>Patrick Burgan  (1960  – ) Stabat Mater for mixed choir  1996</li>
 <li>Edward Bury (1919 – ): Stabat Mater 1941 for mixed choir</li>
-<li><strong>C</strong></li>
+<li class="letter-heading"><strong>C</strong></li>
 <li>Giacinto Calderara (1729 – 1803): Stabat Mater for soloists, choir and orchestra</li>
 <li>Placidus von Camerloher (1718 – 1782)</li>
 <li>Giorgio Cambissa (1921 – 1998) a revision of Scarlatti’s Stabat Mater</li>
@@ -152,7 +152,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Stefano Cui (1980-  ) Stabat Mater for choir</li>
 <li>Jose Cura (1962 – ) Stabat Mater for soloists, mixed choir, children choir and orchestra. 1988.</li>
 <li>Fergus Currie (1961 – )<strong> </strong>Stabat Mater for mezzo soprano , mixed choir and orchestra. 2013.</li>
-<li><strong>D</strong></li>
+<li class="letter-heading"><strong>D</strong></li>
 <li>Florian Dabrowski (1913 – ): Stabat Mater 1940 for mixed choir</li>
 <li>Innocentius Dammonis (ca. 1500): Stabat Mater for mixed choir</li>
 <li>Franz Danzi (1763 – 1826) Stabat Mater, canticle in C minor for SSATTB &amp; orchestra</li>
@@ -180,7 +180,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Johannes Martin Dürr: Stabat Mater 1989</li>
 <li>Edmond Duval (ca. 1850): Stabat Mater for mixed male choir</li>
 <li>John Bacchus Dykes (1823 – 1876): Stabat Mater 1875</li>
-<li><strong>E</strong></li>
+<li class="letter-heading"><strong>E</strong></li>
 <li>Andrzej Dziadek<strong> </strong>(1957 – ) Stabat Mater for soprano and string orchestra, 1997.</li>
 <li>Johann Ernst Eberlin (1702 – 1762): two Stabat Maters</li>
 <li>Ludwig Ebner (ca. 1850): Stabat Mater for mixed choir</li>
@@ -196,7 +196,7 @@ permalink: /stabat-mater-cd-collection/
 <li>C. Estienne: Stabat Mater for four voices and organ or piano</li>
 <li>Caspar Ett (1788 – 1847): Stabat Mater for two mixed choirs</li>
 <li>Hüseyin Evirgen</li>
-<li><strong>F</strong></li>
+<li class="letter-heading"><strong>F</strong></li>
 <li>José Falcao</li>
 <li>Giuseppe Farinelli (1769 – 1836)</li>
 <li>Ivan Fedele (1953 – ) Stabat Mater for Choir and Six Percussionists.</li>
@@ -226,7 +226,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Friedrich Theodor Frohlich (1803 – 1836)</li>
 <li>William Henry Fry (1813 – 1864): Stabat Mater 1855 for 4 soloists, choir and orchestra</li>
 <li>Bonaventura Furlanetto (1738 – 1817)</li>
-<li><strong>G</strong></li>
+<li class="letter-heading"><strong>G</strong></li>
 <li>Renaud Gagneux (1947 – ): Stabat Mater 1991</li>
 <li>Amintore Galli (1845 – 1919)</li>
 <li>Domenico Gallo (1730 – 1768) Stabat Mater</li>
@@ -272,7 +272,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Benno (Bennonis) Grueber (1759 – 1796)</li>
 <li>Lorenzo Guidi</li>
 <li>Marcin Gumiela (1980 -) Stabat Mater for mixed Choir( 2006)</li>
-<li><strong>H</strong></li>
+<li class="letter-heading"><strong>H</strong></li>
 <li>Kjell Habbestad: (1955 – ): Stabat Mater 1990</li>
 <li>Michael Haller (1840 – 1915): Stabat Mater for mixed female choir</li>
 <li>Bernhard Haltemberger (1748 – 1780)</li>
@@ -305,14 +305,14 @@ permalink: /stabat-mater-cd-collection/
 <li>Brian Hulse (Stabat Mater 1999)</li>
 <li>Benjamin Hundley, Stabat Mater for SATB and organ or for voice, soprano saxophone, alto saxophone, 4 part choir SATB</li>
 <li>Robert Hunt (ca. 1550)</li>
-<li><strong>I</strong></li>
+<li class="letter-heading"><strong>I</strong></li>
 <li>Anđelko Igrec: Stabat Mater for Alto and String Quartet</li>
 <li>Janusz Stanislaw Ilinski (1795 – 1860): Stabat Mater for choir and orchestra</li>
 <li>Emanuele Imbibo (ca. 1750): Stabat Mater for 2 female choirs and strings</li>
 <li>Juan Francés de Inbarren (1699 – 1767)</li>
 <li>Nicolo Isouard (1773 – 1818)</li>
 <li>Wolfgang Iten (1712 – 1769)</li>
-<li><strong>J</strong></li>
+<li class="letter-heading"><strong>J</strong></li>
 <li>Francis Jackson (1917 – ): Stabat Mater 1997</li>
 <li>Gunther Wenzel Jacob (1685 – 1734)</li>
 <li>Philip James (1890 – 1975)</li>
@@ -328,7 +328,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Blaženko Juračić: Stabat Mater for mixed choir and string quartet. 2015.</li>
 <li>Pilar Jurado (19.. – ): Stabat Mater 2004 for soprano, mezzo-soprano and orchestra</li>
 <li>Edouard Juvin</li>
-<li><strong>K</strong></li>
+<li class="letter-heading"><strong>K</strong></li>
 <li>Franz Kaern-Biederstedt (1973 – ) Stabat Mater for  4 – 8 voices mixed choir a capella. 2002</li>
 <li>Josef Kainradl (ca.1850): Stabat Mater for mixed female choir</li>
 <li>Friedrich Kalkbrenner (1785 – 1849): Stabat Mater 1842</li>
@@ -373,7 +373,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Wilhelm Kuhe (1823 – 1912)</li>
 <li>Ivan Kurz (1947 – ) Stabat Mater (2000).For childrens choir and string quartet  (2000)</li>
 <li>Peter Kwasniewski  (1971 – )<strong>  </strong>Stabat Mater for five male voices<strong>.</strong> (2023)</li>
-<li><strong>L</strong></li>
+<li class="letter-heading"><strong>L</strong></li>
 <li>Mario Labroca (1896 – 1973): Stabat Mater for soprano solo, choir and orchestra. (1937).</li>
 <li>Jiri Laburda (1931 – : Stabat Mater for mixed choir, a cappella)</li>
 <li>Francesco Giuseppe Lanza (1750 – 1812) Stabat Mater for 2 sopranos, flute, 2 violins, viola and cello</li>
@@ -405,7 +405,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Leopold Lumpp (1801 – 1870)</li>
 <li>Roberto Lupi (1908 – 1971)</li>
 <li>Alexey Fyodorovich L’vov (1789 – 1870): Stabat Mater 1851 for 3 soloists, mixed choir and orchestra</li>
-<li><strong>M</strong></li>
+<li class="letter-heading"><strong>M</strong></li>
 <li>Jan van Maanen (1976 – )<strong> </strong>MARIENKLAGE Stabat Mater for 3 soloists and mixed choir. 2020</li>
 <li>Teodulo Mabelli (1817 – 1897)</li>
 <li>Tadeusz Machl (1922 – ): Stabat Mater for soloists, choir, organ and orchestra</li>
@@ -462,7 +462,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Johannes Müller</li>
 <li>Bartolo Musil (1974 – ): Stabat Mater 1991</li>
 <li>František Musil (1852 – 1908) Stabat Mater for soloists (SATB), choir and orchestra (1993)</li>
-<li><strong>N</strong></li>
+<li class="letter-heading"><strong>N</strong></li>
 <li>Bernard James Naylor (1907 – 1986): Stabat Mater1961 for female choir and strings</li>
 <li>Alexius Neander (1565 – 1605)</li>
 <li>Anton Neckh (? – 1759)</li>
@@ -483,7 +483,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Zoran Novačić (1964 – ) Stabat Mater for Soprano, Contralto and Strings (2007)</li>
 <li>Zygmunt Noskowski (1846 – 1909): Stabat Mater for soloists, choir and orchestra (1937 – ): Stabat Mater 1989</li>
 <li>Rolf Nyhus Stabat Mater for mixed choir, solo quartet, alto solo and organ (1998)</li>
-<li><strong>O</strong></li>
+<li class="letter-heading"><strong>O</strong></li>
 <li>George Oakley<strong>, </strong>Stabat Mater for harp and chorus. 2016.</li>
 <li>Andreas Johann Lorenz Oechsner (1815 – 1886) Stabat Mater Op.35 (sections I, II et III) 1878.</li>
 <li>Kent Olofsson (1962 –   ) Stabat Mater for choir and instruments</li>
@@ -493,7 +493,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Miguel Ortega (1963 – ) Stabat Mater for mezzo soprano, mixed choir and chamber orchestra (1982)</li>
 <li>Philipp Ortmeier (1978 –  ) Stabat Mater for soprano, four part mixed choir and string orchestra</li>
 <li>Einar Oulie (1890 – 1957)</li>
-<li><strong>P</strong></li>
+<li class="letter-heading"><strong>P</strong></li>
 <li>Francisco Pacheco (1784 – 1865)</li>
 <li>Carmelo Pace (1906 – 1993): Stabat Mater 1982 for soprano, tenor, bass, mixed choir and orchestra</li>
 <li>Francesco Paci</li>
@@ -542,10 +542,10 @@ permalink: /stabat-mater-cd-collection/
 <li>Antonietta Preziosi</li>
 <li>Richard Prior: Stabat Mater for soprano, choir and orchestra 1999</li>
 <li>Ignaz Prustmann (ca. 1750)</li>
-<li><strong>Q</strong></li>
+<li class="letter-heading"><strong>Q</strong></li>
 <li>Domenico Quilici: two Stabat Mater ca. 1805 for male choir and orchestra</li>
 <li>Marek Raczyński<strong> </strong>Stabat Mater Dolorosa for men’s ensemble.</li>
-<li><strong>R</strong></li>
+<li class="letter-heading"><strong>R</strong></li>
 <li>Pietro Raimondi (1786 – 1853): two Stabat Maters</li>
 <li>Imant Raminsh (1943 – ) Stabat Mater for mezzo-soprano, 8 mixed voices, SSAATTBB a capella (1979)</li>
 <li>Pietro Ravalli</li>
@@ -579,7 +579,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Carl Rütti (1949 – ): Stabat Mater for chorus, string quartet, cello and mezzo</li>
 <li>Joseph Ryelandt (1870 – 1965): Stabat Mater for soprano, mixed choir, orchestra</li>
 <li>Wladislaw Rzepko (1854 – ): Stabat Mater for male choir</li>
-<li><strong>S</strong></li>
+<li class="letter-heading"><strong>S</strong></li>
 <li>Nicola Sala (1713 – 1801) Stabat Mater for 2 sopranos, strings and bc</li>
 <li>Antonio de Salazar (1650 – 1715) Stabat Mater for four voices</li>
 <li>Balthasar Saldoni (1807 – 1889)</li>
@@ -657,7 +657,7 @@ permalink: /stabat-mater-cd-collection/
 <li>Jerzy Swolkien (1940 – ): Missa Mater Dolorosa for male choir and string orchestra</li>
 <li>Erzsébet Szőnyi  (1924 – 2019 ) Stabat Mater for mixed choir and organ (“Anthem by the painful mother”) for mixed choir (1982)</li>
 <li>Georgi Sztojanov (1985 – ) Stabat Mater for mixed choir, male choir and children /girls choir.</li>
-<li><strong>T</strong></li>
+<li class="letter-heading"><strong>T</strong></li>
 <li>Renato Tagliabue (19?? – ) Stabat Mater for flute, SAATB choir and organ (or with flute or string quartet)</li>
 <li>Steven D. Talley<strong> </strong>Stabat Mater <em>Preciosa </em>for 3, 4, 5, or 6 voices</li>
 <li>Jonas Tamulionis (1949) Stabat Mater for mixed choir (2018).</li>
@@ -675,11 +675,11 @@ permalink: /stabat-mater-cd-collection/
 <li>Péter Tóth (1965- ) Stabat Mater for choir</li>
 <li>Igor Tscherbakov (1955 – ) Stabat Mater cantata a capella solo soprano voice; SATB chorus or solo soprano voice; SSAA chorus</li>
 <li>Nana Tchikhinashvili Stabat Mater for mezzo-soprano, alto and basso.</li>
-<li><strong>U</strong></li>
+<li class="letter-heading"><strong>U</strong></li>
 <li>Jevgenijs Ustinskovs (1970- ) <em>Stabat Mater</em> Dolorosa for mixed choir a capella.</li>
 <li>Joseph Umstatt (1711 – 1762)</li>
 <li>Philippe Utard Stabat Mater <em>Speciosa </em>for mixed choir and organ</li>
-<li><strong>V</strong></li>
+<li class="letter-heading"><strong>V</strong></li>
 <li>Andres Avelino José Peregrino Valenti (ca.1850)</li>
 <li>Giovanni Valentini (1582 – 1649)</li>
 <li>Pietro Valle</li>
@@ -711,9 +711,9 @@ permalink: /stabat-mater-cd-collection/
 <li>Franz Xaver Witt (1834 – 1888): two Stabat Maters</li>
 <li>Karl Witzka (1768 – 1848) Stabat Mater for 4 V. 1846</li>
 <li>Peter Wilhelm Wolff (1853 – 1918) Stabat Mater for soloists, choir and orchestra</li>
-<li><strong>Y</strong></li>
+<li class="letter-heading"><strong>Y</strong></li>
 <li>Kanstantsin Yaskou, born in 1981 (Belarus) Stabat Mater for mixed chorus</li>
-<li><strong>Z</strong></li>
+<li class="letter-heading"><strong>Z</strong></li>
 <li>Martin Zalba Ibañez (1958 – ) Stabat Mater for soprano, alto, harp, organ and choir</li>
 <li>Ignacy Zalewski (1990 – ) Stabat Mater for mixed choir – female voice (non-operatic) – percussion solo –and other instruments (2017 – 2018)</li>
 <li>Francesco Zanetti (1737 – 1788)</li>

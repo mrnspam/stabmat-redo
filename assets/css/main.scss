@@ -716,6 +716,44 @@ a:hover {
   }
 }
 
+
+/* Ensure ordered wp-block lists can include letter headings without disrupting numbering */
+ol.wp-block-list {
+  list-style: none;
+  counter-reset: missing-cd-counter;
+  margin: 0 0 1.5rem;
+  padding-left: 0;
+}
+
+ol.wp-block-list > li {
+  counter-increment: missing-cd-counter;
+  position: relative;
+  padding-left: 2rem;
+  margin: 0 0 0.5rem;
+}
+
+ol.wp-block-list > li::before {
+  content: counter(missing-cd-counter) '.';
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+}
+
+ol.wp-block-list > li.letter-heading {
+  counter-increment: none;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  padding-left: 0;
+}
+
+ol.wp-block-list > li.letter-heading::before {
+  content: none;
+}
+
+ol.wp-block-list > li.letter-heading:first-child {
+  margin-top: 0;
+}
+
 @media (max-width: 640px) {
   .nav-third .menu {
     justify-content: center;
